@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*Container*/
+.container {
+    text-align: center;
+    
+}
+
+.container .logo {
+    width: 351px;
+    aspect-ratio: auto 351 / 113;
+    height: 113px;
+}
+
+/*box*/
+.box {
+    text-align: center;
+    
+}
+
+.box-body {
+    width: 90%;
+    margin: 0 auto;
+   
+}
+
+.box1 {
+    background-color: #EEEEEE;
+}
+
+/*box input*/
+.box1 input {
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    color: -internal-light-dark(black, white);
+    padding: 1px 6px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+.threebox {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2px;
+}
